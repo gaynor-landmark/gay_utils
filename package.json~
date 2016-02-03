@@ -1,0 +1,29 @@
+{
+  "name": "gay_utils",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "colors": "^1.1.2",
+    "js-object-pretty-print": "^0.2.0",
+    "node-emoji": "^1.0.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gaynor-landmark/gay_utils.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gaynor-landmark/gay_utils/issues"
+  },
+  "homepage": "https://github.com/gaynor-landmark/gay_utils#readme"
+}
