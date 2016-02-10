@@ -28,8 +28,18 @@ function map (func, arr) {
 
 }
 
+function reduce(reducerFunction, collection, initialResult) {
+  var result = initialResult;    // initialise the result to be returned - could be of any type
+  for (var i = 0; i < Object.keys(collection).length; i++) {
+    var val = (collection[Object.keys(collection)[i]]);
+    result = reducerFunction(result, val, i);
+  }
+  return result;
+}
+
 module.exports = {
   filter : filter,
   map : map,
-  countIf : countIf
+  countIf : countIf,
+  reduce : reduce
 }
